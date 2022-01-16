@@ -1,13 +1,5 @@
 import React from "react";
-import styled from "styled-components";
-
-const Container = styled.div`
-  display: flex;
-  width: 90vw;
-  @media (max-width: 480px) {
-    width: 100vw;
-  }
-`;
+import { Container } from "./styled";
 
 function ExpandingCards({ cards, resourceName, itemComponent: ItemComponent }) {
   return (
